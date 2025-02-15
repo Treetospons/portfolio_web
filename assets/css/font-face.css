@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "Mitr-ExtraLight";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url("/assets/fonts/Mitr-ExtraLight.ttf") format("TrueType");
+}
+
+@font-face {
+  font-family: "Mitr-Light";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("/assets/fonts/Mitr-Light.ttf") format("TrueType");
+}
+
+@font-face {
+  font-family: "Mitr";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/assets/fonts/Mitr-Regular.ttf") format("TrueType");
+}
+
+@font-face {
+  font-family: "Mitr-Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("/assets/fonts/Mitr-Medium.ttf") format("TrueType");
+}
+
+@font-face {
+  font-family: "Mitr-SemiBold";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("/assets/fonts/Mitr-SemiBold.ttf") format("TrueType");
+}
+
+@font-face {
+  font-family: "Mitr-Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/assets/fonts/Mitr-Bold.ttf") format("TrueType");
+}

@@ -1,0 +1,6 @@
+@theme {
+  --color-background: #282c33;
+  --color-gray: #abb2bf;
+  --color-primary: #c778dd;
+  --color-primary-hover: rgba(199, 120, 221, 0.2);
+}

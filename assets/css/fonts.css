@@ -1,0 +1,10 @@
+@import "./font-face.css";
+
+@theme {
+  --font-mitr-extra-light: "Mitr-ExtraLight";
+  --font-mitr-light: "Mitr-Light";
+  --font-mitr: "Mitr";
+  --font-mitr-medium: "Mitr-Medium";
+  --font-mitr-semi-bold: "Mitr-SemiBold";
+  --font-mitr-bold: "Mitr-Bold";
+}
