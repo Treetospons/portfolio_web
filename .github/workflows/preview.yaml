@@ -20,4 +20,4 @@ jobs:
       - name: Deploy Project Artifacts to Vercel
         run: vercel deploy --prebuilt --token=${{ secrets.VERCEL_TOKEN }}
       - name: Assigning Custom Domains
-        run: vercel deploy --skip-domain
+        run: vercel deploy --skip-domain --token=${{ secrets.VERCEL_TOKEN }}
