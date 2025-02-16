@@ -1,9 +1,9 @@
 <template>
-  <LayoutsHeader />
+  <LayoutHeader class="w-full justify-items-center bg-background z-[100]" />
   <div>
     <slot />
   </div>
-  <LayoutsFooter />
+  <LayoutFooter />
 </template>
 
 <script lang="ts" setup></script>
