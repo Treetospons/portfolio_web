@@ -1,5 +1,5 @@
 <template>
-  <div class="w-[64rem] pt-[3.875rem]">
+  <div class="pt-[7rem]">
     <div class="flex justify-between">
       <div class="w-[33.6525rem] content-center">
         <p class="font-mitr-medium text-white text-[2rem] pb-[2rem]">

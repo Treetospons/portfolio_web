@@ -4,6 +4,7 @@
     <Projects />
     <Skills />
     <AboutMe />
+    <Contacts />
   </div>
 </template>
 
