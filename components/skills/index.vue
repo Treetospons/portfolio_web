@@ -12,7 +12,9 @@
       <AppSvg name="/assets/svg/skills/logo.svg" />
     </div>
     <div class="grid grid-cols-3 gap-[1rem] mt-[3rem] self-center">
-      <div v-for="skill in skills">
+      <div v-for="(skill, index) in skills" :class="{
+        'col-start-2': index == 3
+      }">
         <SkillsCard :title="skill.title" :tech-stacks="skill.techStacks" />
       </div>
     </div>
@@ -31,6 +33,10 @@ const skills = ref([
     techStacks: ["SQLite", "PostgreSQL", "Mongo"],
   },
   {
+    title: "Frameworks",
+    techStacks: ["React", "Vue", "Disnake", "Discord.js", "Flask", "Express.js"],
+  },
+  {
     title: "Tools",
     techStacks: [
       "VSCode",
@@ -46,10 +52,6 @@ const skills = ref([
   {
     title: "Other",
     techStacks: ["HTML", "CSS", "EJS", "SCSS", "REST", "Jinja"],
-  },
-  {
-    title: "Frameworks",
-    techStacks: ["React", "Vue", "Disnake", "Discord.js", "Flask", "Express.js"],
   },
 ]);
 </script>

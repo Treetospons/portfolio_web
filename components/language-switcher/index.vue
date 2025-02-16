@@ -1,6 +1,6 @@
 <template>
   <div class="relative inline-block text-left">
-    <button type="button" class="inline-flex justify-center" @click="toggleDropdown">
+    <button type="button" class="inline-flex justify-center font-mitr-light text-[1rem] text-gray" @click="toggleDropdown">
       {{ language }}
       <svg
         class="-mr-1 size-5 text-gray-400"
