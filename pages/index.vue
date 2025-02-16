@@ -1,8 +1,9 @@
 <template>
-  <div class="justify-self-center">
+  <div class="w-[64rem] justify-self-center">
     <Home />
     <Projects />
     <Skills />
+    <AboutMe />
   </div>
 </template>
 

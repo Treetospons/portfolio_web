@@ -51,8 +51,6 @@
 </template>
 
 <script>
-import { AppSvg } from "#components";
-
 const onClick = () => {
   console.log("onClick");
 };
